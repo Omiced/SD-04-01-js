@@ -5,7 +5,22 @@ const arr = [
   ]
   
   // Type your code below this line!
-  
+  // 1. Agregar número a una fila existente
+arr[0].push(99);
+
+// 2. Agregar una fila completa
+arr.push([30,31,32]);
+
+// 3. Eliminar un número de una fila específica
+const index = arr[1].indexOf(15);
+if (index !== -1) {
+  arr[1].splice(index, 1);
+}
+
+// 4. Invertir una fila sin afectar a las demás
+arr[2].reverse();
+
+console.log(arr);
   
   
   // Type your code above this line!

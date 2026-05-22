@@ -6,6 +6,11 @@ const arr = [
   
   // Type your code below this line!
   
+  arr[0].push(40);
+  arr.push([30, 31, 32, 33, 34, 35]);
+  arr[1].splice(0, 1);
+  arr[2].reverse();
+  console.log(arr);
   
   
   // Type your code above this line!
